@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   @apply uppercase font-black text-secondary;
+}
+
+.img {
+   @apply w-full;
+}
+
+p {
+   @apply text-grayColor;
+}
+
+.wrapper {
+   @apply mx-auto lg:max-w-7xl lg:w-9/12;
+}
+
+.btn {
+   @apply p-3 uppercase font-black rounded-md transition ease-in-out;
+}
+
+.image-gradient {
+   @apply w-full h-full rounded-r-3xl lg:rounded-3xl overflow-hidden lg:w-fit relative after:absolute after:content-[''] after:top-0 after:left-0 after:h-full after:w-full after:bg-primary after:opacity-50;
+}
+
+.feature {
+   @apply col-span-1 text-center md:text-left;
+}
+
+.feature-icon {
+   @apply inline-block p-4 bg-primary rounded-2xl;
+}
+
+.feature-icon img {
+   @apply h-6 w-6 object-contain object-center;
+}
+
+.feature h3 {
+   @apply text-2xl mt-8 mb-5 lg:text-xl;
+}
