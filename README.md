@@ -8,7 +8,6 @@ This is a solution to the [Typemaster pre-launch landing page challenge on Front
    -  [The challenge](#the-challenge)
    -  [Screenshot](#screenshot)
    -  [Links](#links)
--  [My process](#my-process)
    -  [Built with](#built-with)
    -  [What I learned](#what-i-learned)
 -  [Author](#author)
@@ -42,4 +41,4 @@ Tailwind css. First time I've used it. Fun Stuff
 
 ## Author
 
--  Website - [Leon Michalak](https://www.devubong.com)
+-  Website - [Ubong Usoro](https://www.devubong.com)
